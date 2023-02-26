@@ -37,7 +37,7 @@ export default function Home({ allPostsData }): JSX.Element {
       <Head ><title>{siteTitle}</title></Head>
       <section className={utilStyle.headingMd}>
         <p>
-          私はアプリケーションエンジニアです。ORCのengineeringチームに所属しています。
+          私はORCのengineeringチームに所属しています。チームにおける役割は開発メンバーです。
         </p>
       </section>
       <h2>Fushianaのブログ</h2>
