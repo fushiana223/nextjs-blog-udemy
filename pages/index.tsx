@@ -55,6 +55,7 @@ export default function Home({ allPostsData }): JSX.Element {
             <small className={utilStyle.lightText}>{date}</small>
           </article>)}
       </div>
+      <Link href="/user">ユーザー一覧へ</Link>
     </Layout>
   )
 }
