@@ -38,12 +38,11 @@ export default function Users({ users }) {
                     {users.map((user) => <TableRow key={user.id}>
                         <TableCell>{user.id}</TableCell>
                         <TableCell>{user.name}</TableCell>
-                        <TableCell>{user.age}</TableCell>
-                        <TableCell>{user.phoneNumber}</TableCell>
+                        <TableCell>{user.email}</TableCell>
+                        <TableCell>{user.phone}</TableCell>
                     </TableRow>)}
                 </TableBody>
             </Table>
         </Layout>
-
     );
 }
